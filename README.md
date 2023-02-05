@@ -1,5 +1,7 @@
 # Description
 
+Example on how to use cognito with react-native
+
 # Install
 
 1. Configure AWS keys
@@ -14,9 +16,9 @@
 
 3. Configure `terraform/vars.tf`
 
-  `email_from` - Your desired email
+    `email_from` - Your desired email
 
-  `ses_arn` - The arn of the Amazon SES service
+    `ses_arn` - The arn of the Amazon SES service
 
 4. Run terraform
 
@@ -44,11 +46,13 @@
    yarn ios
    ```
 
-# Destory
+# Destroy
 
 ```
 cd terraform
 terraform destroy
 ```
+
+# Docs
 
 - [User Pool Auth flow](https://aws.amazon.com/blogs/mobile/customizing-your-user-pool-authentication-flow/)
